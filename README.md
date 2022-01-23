@@ -1,5 +1,5 @@
 ---
-description: This website has global informations regarding Discord moderation bot, Moody.
+description: The new way to manage and build the server of your dreams.
 ---
 
 # Moody
