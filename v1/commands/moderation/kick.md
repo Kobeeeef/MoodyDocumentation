@@ -20,7 +20,7 @@ Members able to use the kick commands are:
 ## Format <a href="#format" id="format"></a>
 
 {% hint style="info" %}
-## `w!kick <MEMBER(S)> <PARAMETERS>` <a href="#w-kick-less-than-member-s-greater-than-less-than-parameters-greater-than" id="w-kick-less-than-member-s-greater-than-less-than-parameters-greater-than"></a>
+## `!kick <MEMBER(S)> <PARAMETERS>` <a href="#w-kick-less-than-member-s-greater-than-less-than-parameters-greater-than" id="w-kick-less-than-member-s-greater-than-less-than-parameters-greater-than"></a>
 
 ### `<MEMBER(s)>` <a href="#less-than-member-s-greater-than" id="less-than-member-s-greater-than"></a>
 {% endhint %}

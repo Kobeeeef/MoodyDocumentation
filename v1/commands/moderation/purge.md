@@ -176,7 +176,7 @@ Parameters are the purge options you can pass if you want extra input or a custo
 
 ### **No Roles** <a href="#no-roles" id="no-roles"></a>
 
-`w!purge 25 norole`
+`!purge 25 norole`
 
 * This command will purge `25` messages sent by **users with no roles** in the channel this command was used in.
 
