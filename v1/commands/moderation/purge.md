@@ -2,7 +2,7 @@
 description: Moody's purge command is explained in detail here!
 ---
 
-# Purge (p)
+# Purge
 
 ## Description <a href="#description" id="description"></a>
 
@@ -27,9 +27,6 @@ Members able to use the purge commands are:
 
 {% hint style="info" %}
 ### `/clear <AMOUNT OF MESSAGE> [TYPE] [USER/ID]` <a href="#w-purge-less-than-no.-of-messages-greater-than-less-than-user-parameter-greater-than" id="w-purge-less-than-no.-of-messages-greater-than-less-than-user-parameter-greater-than"></a>
-
-* \<AMOUNT OF MESSAGE> is required&#x20;
-* \[TYPE] and \[USER] is optional
 {% endhint %}
 
 ### Parameters - \[TYPE]

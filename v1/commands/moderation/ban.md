@@ -2,7 +2,7 @@
 description: This page talks in depth about Moody's awesome moderation command, Ban.
 ---
 
-# Ban (b)
+# Ban
 
 ## Description
 
@@ -20,9 +20,6 @@ Members able to use the ban commands are:
 
 {% hint style="info" %}
 ### /ban \<MEMBER> \[REASON]
-
-* \<MEMBER> is required
-* \[REASON] is optional
 {% endhint %}
 
 {% hint style="success" %}
@@ -30,7 +27,7 @@ Members able to use the ban commands are:
 
 * **/ban 397733177507971072**
 
-_\[This will ban the user, who has the IDs " 397733177507971072, In this case, it's "Timmy".]_
+_\[This will ban the user, who has the IDs " 397733177507971072, In this case, it's "Wumpus".]_
 
 > Using <mark style="color:blue;">Mentions</mark>
 

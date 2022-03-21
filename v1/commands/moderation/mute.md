@@ -21,9 +21,22 @@ Members able to use the mute commands are:
 
 {% hint style="info" %}
 ### `/mute <MEMBER> <DURATION> [REASON]`
-
-* \<MEMBER> and \<DURATION> are required
-* \[REASON] is optional
 {% endhint %}
 
-``
+{% hint style="success" %}
+> Using [IDs](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-)
+
+* **/mute 397733177507971072 20m**
+
+_\[This will timed out the user, who has the IDs " 397733177507971072, In this case, it's "Wumpus". After 20 minutes, it will auto unmute the user.]_
+
+> Using <mark style="color:blue;">Mentions</mark>
+
+* **/mute @Wumpus 20m**
+
+_\[This will timed out the user, Wumpus. After 20 minutes, it will auto unmute the user.]_
+{% endhint %}
+
+{% hint style="info" %}
+If the provided duration is over 28 days, Moody will permanently mute the user&#x20;
+{% endhint %}

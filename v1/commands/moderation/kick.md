@@ -2,7 +2,7 @@
 description: This page explains Moody's Kick command greatly.
 ---
 
-# Kick (k)
+# Kick
 
 ## Description
 
@@ -21,9 +21,6 @@ Members able to use the kick commands are:
 
 {% hint style="info" %}
 ### `/kick <MEMBER> [REASON]` <a href="#w-kick-less-than-member-s-greater-than-less-than-parameters-greater-than" id="w-kick-less-than-member-s-greater-than-less-than-parameters-greater-than"></a>
-
-* \<MEMBER> is required
-* \[REASON] is optional
 {% endhint %}
 
 {% hint style="success" %}
@@ -31,7 +28,7 @@ Members able to use the kick commands are:
 
 * **/kick 397733177507971072**
 
-_\[This is to kick the user, who has the IDs " 397733177507971072, In this case, it's "Timmy".]_
+_\[This is to kick the user, who has the IDs " 397733177507971072, In this case, it's "Wumpus".]_
 
 > Using <mark style="color:blue;">Mentions</mark>
 
