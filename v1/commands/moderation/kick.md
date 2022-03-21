@@ -1,3 +1,7 @@
+---
+description: This page explains Moody's Kick command greatly.
+---
+
 # Kick (k)
 
 ## Description
@@ -33,7 +37,7 @@ _\[This is to kick the user, who has the IDs " 397733177507971072, In this case,
 
 * **/kick @Wumpus**
 
-_\[This is to kick the user, who has the @Wumpus]_
+_\[This will kick the user, Wumpus]_
 {% endhint %}
 
 

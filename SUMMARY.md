@@ -17,3 +17,4 @@
     * [Kick (k)](v1/commands/moderation/kick.md)
     * [Ban (b)](v1/commands/moderation/ban.md)
     * [Purge (p)](v1/commands/moderation/purge.md)
+    * [Mute](v1/commands/moderation/mute.md)
