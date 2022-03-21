@@ -16,5 +16,5 @@
   * [Moderation](v1/commands/moderation/README.md)
     * [Kick](v1/commands/moderation/kick.md)
     * [Ban](v1/commands/moderation/ban.md)
-    * [Purge (p)](v1/commands/moderation/purge.md)
+    * [Purge](v1/commands/moderation/purge.md)
     * [Mute](v1/commands/moderation/mute.md)
