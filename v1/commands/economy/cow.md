@@ -8,4 +8,11 @@ Usage
 
 ```
 cow
+cow feed (amount)
 ```
+
+{% hint style="info" %}
+(amount) - required
+
+* Amount is the amount of grass you want to feed
+{% endhint %}
