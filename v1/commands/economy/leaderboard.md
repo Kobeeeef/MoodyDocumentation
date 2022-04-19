@@ -10,6 +10,12 @@ Usage
 leaderboard (type)
 ```
 
+Aliases
+
+```
+lb
+```
+
 {% hint style="info" %}
 (type) - required
 {% endhint %}

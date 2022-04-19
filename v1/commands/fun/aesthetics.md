@@ -7,7 +7,7 @@ description: Aestheticify your message
 Usage
 
 ```
-!aesthetics (message)
+aesthetics (message)
 ```
 
 {% hint style="info" %}

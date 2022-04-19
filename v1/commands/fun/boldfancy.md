@@ -7,7 +7,13 @@ description: Bold and fancify your message
 Usage
 
 ```
-!boldfancy (message)
+boldfancy (message)
+```
+
+Aliases
+
+```
+bf
 ```
 
 {% hint style="info" %}

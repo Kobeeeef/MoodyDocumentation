@@ -10,6 +10,12 @@ Usage
 calculator (expression)
 ```
 
+Aliases
+
+```
+calc
+```
+
 {% hint style="info" %}
 (expression) - optional
 
