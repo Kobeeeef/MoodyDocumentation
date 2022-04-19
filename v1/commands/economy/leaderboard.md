@@ -7,7 +7,7 @@ description: Get the leaderboard of any type of item
 Usage
 
 ```
-leaderboard (type)hin
+leaderboard (type)
 ```
 
 {% hint style="info" %}
