@@ -9,7 +9,7 @@ description: The new way to manage and build the server of your dreams.
 {% endhint %}
 
 {% hint style="warning" %}
-[**Back to Dashboard**](https://moodybot.xyz/dashboard/)
+[**Back to Dashboard**](https://moodybot.xyz/manage/)
 {% endhint %}
 
 {% hint style="success" %}
