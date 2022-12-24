@@ -41,3 +41,5 @@
     * [Ban](v1/commands/moderation/ban.md)
     * [Purge](v1/commands/moderation/purge.md)
     * [Mute](v1/commands/moderation/mute.md)
+* [Troubleshoot](v1/troubleshoot/README.md)
+  * [Error 200](v1/troubleshoot/error-200.md)

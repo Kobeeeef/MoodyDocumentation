@@ -18,7 +18,7 @@ There are 3 categories regarding Moody's commands
 
 
 
-* **`Moderation`**: All moderation commands follow this one unique format: **`w!command TARGET PARAMETERS`**
+* **`Moderation`**: All moderation commands follow this one unique format: /**`command TARGET PARAMETERS`**
   * **TARGET**: It's usually the member(s) you want to apply an action on.
   * **PARAMETERS**: Moderation has different extra parameters but one golden rule is: **Parameters come after TARGET!!**\
     Each moderation command has it's set of parameters you can see by visiting their pages.
