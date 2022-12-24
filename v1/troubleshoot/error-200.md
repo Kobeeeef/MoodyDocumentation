@@ -14,6 +14,9 @@ This error can be fixed in 2 simple steps:
 
 * Give Moody administrator permissions
 * Move Moody's bot role to the top of the list
+
+
+
 * Fast Solution: <mark style="color:red;">Reinvite Moody with default settings (not recommended)</mark>
 
 ### Give Moody Administrator
@@ -37,6 +40,6 @@ This error can be fixed in 2 simple steps:
 
 Click the link below and select server.&#x20;
 
-{% hint style="success" %}
+{% hint style="warning" %}
 ****[**Moody Invite**](https://discord.com/oauth2/authorize?\&client\_id=1025976919147159572\&scope=applications.commands+bot\&permissions=8\&response\_type=code\&redirect\_uri=https://moodybot.xyz/)****
 {% endhint %}
