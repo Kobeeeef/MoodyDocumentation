@@ -6,16 +6,16 @@ description: You can find everything you need to know regarding mutes in this pa
 
 ## Description
 
-You can mute anyone who is **not immune** in your server by using the mute command. It will timed out the user. If the duration is over 28 days, Moody will permanently mute the user.
+You can mute anyone who is **not immune** in your server by using the mute command. It will time out the user. If the duration is over 28 days, Moody will permanently mute the user.
 
-## Permit
+### Admission
 
 Members able to use the mute commands are:
 
-* Members with the Moderator role **set in Wick**. _`[Permit level 2]`_
-* Members with the Admin role **set in Wick**. _`[Permit level 3]`_
-* Trusted Admins _`[Permit level 4]`_
-* Server Owner and Extra Owners. _`[Permit level 5]`_
+* Members with the Assistant role **set in Moody**. _`[Admission 2]`_
+* Members with the Moderator role **set in Moody**. _`[Admission 3]`_
+* Managers. _`[Admission 4]`_
+* Server Owner and Extra Owners. _`[Admission 5]`_
 
 ## Format
 
@@ -24,17 +24,9 @@ Members able to use the mute commands are:
 {% endhint %}
 
 {% hint style="success" %}
-> Using [IDs](https://support.discord.com/hc/en-us/articles/206346498-Where-can-I-find-my-User-Server-Message-ID-)
+* **/mute @Wumpus 60s**
 
-* **/mute 397733177507971072 20m**
-
-_\[This will timed out the user, who has the IDs " 397733177507971072, In this case, it's "Wumpus". After 20 minutes, it will auto unmute the user.]_
-
-> Using <mark style="color:blue;">Mentions</mark>
-
-* **/mute @Wumpus 20m**
-
-_\[This will timed out the user, Wumpus. After 20 minutes, it will auto unmute the user.]_
+_\[This will add a timeout on Wumpus, saving this case into Moody's system for future notice.]_
 {% endhint %}
 
 {% hint style="info" %}
