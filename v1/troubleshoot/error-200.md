@@ -8,7 +8,7 @@ description: Insufficient Permission Error
 
 This error occurs when Moody does not have enough permission to run an action (kick/ban/etc). Moody permissions are defined when Moody joins the server or if another admin/owner directly modifies Moody.
 
-## Moody Error Fix
+## Moody Error Solution
 
 This error can be fixed in 2 simple steps:
 
@@ -43,3 +43,4 @@ Click the link below and select server.&#x20;
 {% hint style="warning" %}
 ****[**Moody Invite**](https://discord.com/oauth2/authorize?\&client\_id=1025976919147159572\&scope=applications.commands+bot\&permissions=8\&response\_type=code\&redirect\_uri=https://moodybot.xyz/)****
 {% endhint %}
+
