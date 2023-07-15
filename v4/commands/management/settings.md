@@ -86,7 +86,7 @@ The `Settings` command in Moody Discord Bot allows you to configure various modu
 
     **14. Auto Lock**
 
-    * This setting enables or disables auto locking.
+    * This setting enables or disables auto-locking.
     * Usage: `/settings BUMP 4 [true or false]`
 
     **15. Add Bump Mentions**
@@ -97,6 +97,4 @@ The `Settings` command in Moody Discord Bot allows you to configure various modu
 6. Once you've provided the new value, Moody Bot will process the command and make the necessary changes to the settings.
 7. You will receive a confirmation message indicating that the settings have been updated successfully.
 8. Verify the changes by checking the relevant features or observing any modifications as per the updated settings.
-9. If you encounter any issues or need further assistance, contact the server administrator or the bot owner for support.
-
-Note: The available modules, settings, and their respective usage examples may vary depending on the specific implementation of the `Settings` command in the Moody Discord Bot. Please refer to the bot's documentation or contact the bot owner for more detailed instructions and information about the available options.
+9. If you encounter any issues or need further assistance, contact the support server.
