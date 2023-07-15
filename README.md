@@ -12,6 +12,6 @@ description: The new way to manage and build the server of your dreams.
 [**Back to Dashboard**](https://moodybot.xyz/manage/)
 {% endhint %}
 
-{% hint style="success" %}
-[**Moody Support**](https://moodybot.xyz/support/)
+{% hint style="info" %}
+[**Moody Support**](https://discord.gg/NHKjXpYCpe)
 {% endhint %}

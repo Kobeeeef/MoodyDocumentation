@@ -98,3 +98,7 @@ The `Settings` command in Moody Discord Bot allows you to configure various modu
 7. You will receive a confirmation message indicating that the settings have been updated successfully.
 8. Verify the changes by checking the relevant features or observing any modifications as per the updated settings.
 9. If you encounter any issues or need further assistance, contact the support server.
+
+{% hint style="info" %}
+[**Moody Support**](https://discord.gg/NHKjXpYCpe)
+{% endhint %}
