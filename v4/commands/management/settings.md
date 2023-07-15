@@ -59,8 +59,21 @@ The `settings` command supports the following modules and corresponding settings
 
 * **Setting 1**: Enable/Disable the Audit Logging module.
 * **Setting 2**: Configure the Audit Logging channel.
-* **Setting 3**: Add events to log.
-* **Setting 4**: Remove events from log.
+* **Setting 3**: Add events to the log.
+* **Setting 4**: Remove events from the log.
+
+**Logging Events:**
+
+* `CHANNEL_CREATE`
+* `CHANNEL_DELETE`&#x20;
+* `ROLE_CREATE`&#x20;
+* `ROLE_DELETE`&#x20;
+* `WEBHOOK_CREATE`&#x20;
+* `WEBHOOK_DELETE`&#x20;
+* `EMOJI_CREATE`&#x20;
+* `EMOJI_DELETE`&#x20;
+* `MESSAGE_UPDATE`&#x20;
+* `MESSAGE_DELETE`
 
 ### Static Roles Module
 
