@@ -12,7 +12,8 @@ The `settings` command in Moody Discord Bot allows you to configure various modu
 
 ## Permit
 
-To use the `settings` command, you need to have the **Manager** permit level (Permit level 4) in the server.
+* Server Owner _`[Admission level 5]`_
+* Manager _`[Admission level 4]`_
 
 ## Format
 
