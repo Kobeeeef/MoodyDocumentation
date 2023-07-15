@@ -10,7 +10,7 @@ description: >-
 
 The `settings` command in Moody Discord Bot allows you to configure various module settings for your server. You can customize settings related to modules such as Bump Reminder, Report System, Audit Logging, Static Roles, Static Channels, and Milky Overflow Control. This command provides a flexible and convenient way to manage and modify these settings.
 
-## Permit
+## Admission
 
 * Server Owner _`[Admission level 5]`_
 * Manager _`[Admission level 4]`_
@@ -20,7 +20,7 @@ The `settings` command in Moody Discord Bot allows you to configure various modu
 To use the `settings` command, follow the format below:
 
 {% hint style="info" %}
-#### `/settings <MODULE> <SETTING> <VALUE>`
+**`/settings <MODULE> <SETTING> <VALUE>`**
 {% endhint %}
 
 * `<MODULE>`: Select the module/setting you want to configure.
