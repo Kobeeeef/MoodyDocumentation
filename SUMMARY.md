@@ -12,6 +12,8 @@
     * [Admissions](v4/overview/features/permits.md)
     * [Isolation](v4/overview/features/quarantine.md)
 * [Commands](v4/commands/README.md)
+  * [🪛 Management](v4/commands/management/README.md)
+    * [Settings](v4/commands/management/settings.md)
   * [💵 Economy](v4/commands/economy/README.md)
     * [Balance](v4/commands/economy/balance.md)
     * [Build](v4/commands/economy/build.md)
