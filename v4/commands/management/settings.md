@@ -1,104 +1,79 @@
-# Settings
+---
+description: This GitBook page provides detailed information on how to use Moody Discord Bot's `settings` command to configure module settings and more.
+---
 
-## Using the `Settings` Command
+# Settings Command
 
-The `Settings` command in Moody Discord Bot allows you to configure various module settings for your server. Follow the steps below to effectively use this command:
+## Description
 
-1. Open Discord and navigate to the server where Moody Bot is present.
-2. Type `/settings` in the text input box to trigger the `Settings` command.
-3. A prompt will appear, asking you to select the module you want to configure. Choose the desired module by clicking on the appropriate option.
-4.  Next, select the specific setting you wish to modify. The available settings and their corresponding numbers are as follows:
+The `settings` command in Moody Discord Bot allows you to configure various module settings for your server. You can customize settings related to modules such as Bump Reminder, Report System, Audit Logging, Static Roles, Static Channels, and Milky Overflow Control. This command provides a flexible and convenient way to manage and modify these settings.
 
-    **1. Assistant Role**
+## Permit
 
-    * This setting assigns the Assistant role.
-    * Usage: `/settings ROLES 1 [role name/mention/id]`
+To use the `settings` command, you need to have the **Manager** permit level (Permit level 4) in the server.
 
-    **2. Isolate Role**
+## Format
 
-    * This setting assigns the Isolate role.
-    * Usage: `/settings ROLES 2 [role name/mention/id]`
-
-    **3. Moderator Role**
-
-    * This setting assigns the Moderator role.
-    * Usage: `/settings ROLES 3 [role name/mention/id]`
-
-    **4. Manager Role**
-
-    * This setting assigns the Manager role.
-    * Usage: `/settings ROLES 4 [role name/mention/id]`
-
-    **5. Moody Channel**
-
-    * This setting sets the Moody channel.
-    * Usage: `/settings CHANNELS 1 [channel name/mention/id]`
-
-    **6. Guild Channel**
-
-    * This setting sets the Guild channel.
-    * Usage: `/settings CHANNELS 2 [channel name/mention/id]`
-
-    **7. Logging Enabled**
-
-    * This setting enables or disables logging.
-    * Usage: `/settings LOGGING 1 [true or false]`
-
-    **8. Logging Channel**
-
-    * This setting sets the logging channel.
-    * Usage: `/settings LOGGING 2 [channel name/mention/id]`
-
-    **9. Add Logging Events**
-
-    * This setting adds logging events. Choose from the following event names:
-      * `CHANNEL_CREATE`
-      * `CHANNEL_DELETE`
-      * `ROLE_CREATE`
-      * `ROLE_DELETE`
-      * `WEBHOOK_CREATE`
-      * `WEBHOOK_DELETE`
-      * `EMOJI_CREATE`
-      * `EMOJI_DELETE`
-      * `MESSAGE_UPDATE`
-      * `MESSAGE_DELETE`
-    * Usage: `/settings LOGGING 3 [event names]`
-
-    **10. Remove Logging Events**
-
-    * This setting removes logging events. Choose from the same event names mentioned above.
-    * Usage: `/settings LOGGING 4 [event names]`
-
-    **11. Bump Enabled**
-
-    * This setting enables or disables bump reminders.
-    * Usage: `/settings BUMP 1 [true or false]`
-
-    **12. Auto Cleanse**
-
-    * This setting enables or disables auto cleansing.
-    * Usage: `/settings BUMP 2 [true or false]`
-
-    **13. Bump Channel**
-
-    * This setting sets the bump channel.
-    * Usage: `/settings BUMP 3 [channel name/mention/id]`
-
-    **14. Auto Lock**
-
-    * This setting enables or disables auto-locking.
-    * Usage: `/settings BUMP 4 [true or false]`
-
-    **15. Add Bump Mentions**
-
-    * This setting adds bump mentions.
-    * Usage: `/settings BUMP 5 [role names/mentions/ids]`
-5. Provide the new value for the selected setting when prompted. Enter the value as specified in the usage examples.
-6. Once you've provided the new value, Moody Bot will process the command and make the necessary changes to the settings.
-7. You will receive a confirmation message indicating that the settings have been updated successfully.
-8. Verify the changes by checking the relevant features or observing any modifications as per the updated settings.
-9. If you encounter any issues or need further assistance, contact the support server.
+To use the `settings` command, follow the format below:
 
 {% hint style="info" %}
-[**Moody Support**](https://discord.gg/NHKjXpYCpe)
+### `/settings <MODULE> <SETTING> <VALUE>`
 {% endhint %}
+
+- `<MODULE>`: Select the module/setting you want to configure.
+- `<SETTING>`: Customize the specific setting within the selected module.
+- `<VALUE>`: Provide the new value for the setting.
+
+## Example
+
+Here's an example of how to use the `settings` command:
+
+```
+/settings BUMP 1 true
+```
+
+This command configures the Bump module's first setting to `true`.
+
+## Modules and Settings
+
+The `settings` command supports the following modules and corresponding settings:
+
+### Bump Module
+
+- **Setting 1**: Enable/Disable the Bump module.
+- **Setting 2**: Enable/Disable auto cleanse.
+- **Setting 3**: Configure the Bump channel.
+- **Setting 4**: Enable/Disable auto lock.
+- **Setting 5**: Configure mentions for Bump notifications.
+
+### Report Module
+
+- **Setting 1**: Enable/Disable the Report module.
+- **Setting 2**: Configure the Report channel.
+- **Setting 3**: Configure role mentions for reports.
+
+### Audit Logging Module
+
+- **Setting 1**: Enable/Disable the Audit Logging module.
+- **Setting 2**: Configure the Audit Logging channel.
+- **Setting 3**: Add events to log.
+- **Setting 4**: Remove events from log.
+
+### Static Roles Module
+
+- **Setting 1**: Configure the Assistant role.
+- **Setting 2**: Configure the Isolated role.
+- **Setting 3**: Configure the Moderator role.
+- **Setting 4**: Configure the Manager role.
+
+### Static Channels Module
+
+- **Setting 1**: Configure the Moody channel.
+- **Setting 2**: Configure the Guild channel.
+
+## Note
+
+Keep in mind that the `settings` command requires the Manager permit level (Permit level 4) to use the command effectively.
+
+Make sure to provide the correct module, setting, and value when using the command to avoid any unintended changes.
+
