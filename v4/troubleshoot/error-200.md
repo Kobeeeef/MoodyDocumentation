@@ -17,7 +17,9 @@ This error can be fixed in 2 simple steps:
 
 
 
-* Fast Solution: <mark style="color:red;">Reinvite Moody with default settings (not recommended)</mark>
+**Fast Solution:**
+
+* &#x20;Reinvite Moody with default settings
 
 ### Give Moody Administrator
 
@@ -36,11 +38,11 @@ This error can be fixed in 2 simple steps:
 * Scroll and find `Moody`
 * Drag the role to the top of the list
 
-### Reinvite Moody (Not Recommended)
+### Reinvite Moody
 
-Click the link below and select server.&#x20;
+Click the link below and select a server.&#x20;
 
 {% hint style="warning" %}
-****[**Moody Invite**](https://discord.com/oauth2/authorize?\&client\_id=1025976919147159572\&scope=applications.commands+bot\&permissions=8\&response\_type=code\&redirect\_uri=https://moodybot.xyz/)****
+[**Moody Invite**](https://discord.com/oauth2/authorize?\&client\_id=1025976919147159572\&scope=applications.commands+bot\&permissions=8\&response\_type=code\&redirect\_uri=https://moodybot.xyz/)
 {% endhint %}
 
