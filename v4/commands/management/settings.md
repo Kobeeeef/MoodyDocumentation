@@ -1,92 +1,59 @@
+Apologies for the confusion. Here's the `settings` command page without code blocks:
+
 ---
-description: >-
-  This page provides detailed information on how to use Moody's `settings`
-  command to configure module settings and more.
+description: Moody Discord Bot - Settings Command
 ---
 
-# Settings
+# Settings Command
 
 ## Description
 
-The `settings` command in Moody Discord Bot allows you to configure various module settings for your server. You can customize settings related to modules such as Bump Reminder, Report System, Audit Logging, Static Roles, Static Channels, and Milky Overflow Control. This command provides a flexible and convenient way to manage and modify these settings.
+The `settings` command in Moody Discord Bot allows you to access the graphical user interface (GUI) to configure various module settings for your server. You can customize settings related to modules such as Bump Reminder, Report System, Audit Logging, Static Roles, Static Channels, and Milky Overflow Control. The GUI provides a user-friendly and interactive way to manage and modify these settings without the need for complex commands.
 
-## Admission
+## Permit
 
-* Server Owner _`[Admission level 5]`_
-* Manager _`[Admission level 4]`_
+To use the `settings` command and access the GUI, you need to have the **Manager** permit level (Permit level 4) in the server.
 
-## Format
+## Accessing the GUI
 
-To use the `settings` command, follow the format below:
+To access the GUI for configuring the module settings, follow these steps:
 
-{% hint style="info" %}
-**`/settings <MODULE> <SETTING> <VALUE>`**
-{% endhint %}
+1. Use the `settings` command with the desired `module` as the parameter.
 
-* `<MODULE>`: Select the module/setting you want to configure.
-* `<SETTING>`: Customize the specific setting within the selected module.
-* `<VALUE>`: Provide the new value for the setting.
+    ```
+    /settings MODULE
+    ```
 
-## Example
+    Replace `MODULE` with one of the following module names:
 
-Here's an example of how to use the `settings` command:
+    - `BUMP`: Bump Reminder module settings
+    - `REPORT`: Report System module settings
+    - `LOGGING`: Audit Logging module settings
+    - `ROLES`: Static Roles module settings
+    - `CHANNELS`: Static Channels module settings
+    - `MOC`: Milky Overflow Control module settings
 
-```
-/settings BUMP 1 true
-```
+2. After using the `settings` command, Moody will display a graphical interface with options to modify the settings for the selected module.
 
-This command configures the Bump module's first setting to `true`.
+3. Interact with the GUI to configure the specific settings within the module. You can enable/disable features, set channels, and define roles for various functionalities.
 
-## Modules and Settings
+4. Save your changes by interacting with the GUI elements accordingly.
 
-The `settings` command supports the following modules and corresponding settings:
+## Logging Events
 
-### Bump Module
+The Audit Logging module allows you to log various events within your server. While the actual configuration of these logging events is done through the GUI, you can still see the list of available logging events that can be configured:
 
-* **Setting 1**: Enable/Disable the Bump module.
-* **Setting 2**: Enable/Disable auto cleanse.
-* **Setting 3**: Configure the Bump channel.
-* **Setting 4**: Enable/Disable auto lock.
-* **Setting 5**: Configure mentions for Bump notifications.
-
-### Report Module
-
-* **Setting 1**: Enable/Disable the Report module.
-* **Setting 2**: Configure the Report channel.
-* **Setting 3**: Configure role mentions for reports.
-
-### Audit Logging Module
-
-* **Setting 1**: Enable/Disable the Audit Logging module.
-* **Setting 2**: Configure the Audit Logging channel.
-* **Setting 3**: Add events to the log.
-* **Setting 4**: Remove events from the log.
-
-**Logging Events:**
-
-* `CHANNEL_CREATE`
-* `CHANNEL_DELETE`&#x20;
-* `ROLE_CREATE`&#x20;
-* `ROLE_DELETE`&#x20;
-* `WEBHOOK_CREATE`&#x20;
-* `WEBHOOK_DELETE`&#x20;
-* `EMOJI_CREATE`&#x20;
-* `EMOJI_DELETE`&#x20;
-* `MESSAGE_UPDATE`&#x20;
-* `MESSAGE_DELETE`
-
-### Static Roles Module
-
-* **Setting 1**: Configure the Assistant role.
-* **Setting 2**: Configure the Isolated role.
-* **Setting 3**: Configure the Moderator role.
-* **Setting 4**: Configure the Manager role.
-
-### Static Channels Module
-
-* **Setting 1**: Configure the Moody channel.
-* **Setting 2**: Configure the Guild channel.
+- `CHANNEL_CREATE`
+- `CHANNEL_DELETE`
+- `ROLE_CREATE`
+- `ROLE_DELETE`
+- `WEBHOOK_CREATE`
+- `WEBHOOK_DELETE`
+- `EMOJI_CREATE`
+- `EMOJI_DELETE`
+- `MESSAGE_UPDATE`
+- `MESSAGE_DELETE`
 
 ## Note
 
-Make sure to provide the correct module, setting, and value when using the command to avoid any unintended changes.
+Keep in mind that the Moody Discord Bot's GUI-based settings provide an intuitive way to manage various aspects of your server without the need for complex commands. Enjoy configuring your modules and enhancing your server's functionalities with ease!
