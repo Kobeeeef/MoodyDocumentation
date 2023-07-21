@@ -1,5 +1,3 @@
-Apologies for the confusion. Here's the `settings` command page without code blocks:
-
 ---
 description: Moody Discord Bot - Settings Command
 ---
